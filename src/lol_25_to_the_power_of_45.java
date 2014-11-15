@@ -59,5 +59,4 @@ public class lol_25_to_the_power_of_45 {
 		System.out.println(s);
 		
 	}
-
 }
