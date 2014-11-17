@@ -12,16 +12,16 @@ public class lol_integral {
 		return rtn;
 	}
 	
-	//被积函数f(x)=e^(x^2)
+	//被积函数f(x)=e^(-x^2)
 	public double function(double x){
 		double rtn = Math.E;
-		rtn = Math.pow(rtn, x);
+		rtn = Math.pow(rtn, -x*x);
 		return rtn;
 	}
 	
 	public static void main(String[] args) {
-		//System.out.println(Math.pow(Math.E, -10));
-		System.out.println(new lol_integral().integral(0,+100000));
+		System.out.println(Math.pow(Math.PI, 0.5));
+		System.out.println(new lol_integral().integral(-10,+10));
 	}
 	
 
